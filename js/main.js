@@ -12,6 +12,7 @@ import { renderSkills }      from './skills.js';
 import { renderProjects }    from './projects.js';
 import { initTerminal }      from './terminal.js';
 import { initNav }           from './nav.js';
+import { initTerminalToast } from './toast.js';
 
 (async function init() {
   // 1. inject all HTML partials first — everything else depends on this
@@ -32,4 +33,12 @@ import { initNav }           from './nav.js';
   initSticker();
   initTerminal();
   initNav();
+  initTerminalToast();
+
+  // 5. everything is ready — fade out and remove the preloader
+  const preloader = document.getElementById('preloader');
+  if (preloader) {
+    preloader.classList.add('fade-out');
+    preloader.addEventListener('transitionend', () => preloader.remove(), { once: true });
+  }
 })();

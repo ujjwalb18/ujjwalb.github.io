@@ -54,7 +54,7 @@
   ],
 
   "projects": [
-    "PRJ-001 fda-adverse-events.py    <span style=\"opacity:0.6\">[etl + nlp · 2024]</span>",
+    "PRJ-001 incident-ops.resolve()   <span style=\"opacity:0.6\">[servicenow + sql · 2022]</span>",
     "PRJ-002 fake-news-detector.py    <span style=\"opacity:0.6\">[nlp classification · 2024]</span>",
     "PRJ-003 spotify-genre-ml.py      <span style=\"opacity:0.6\">[supervised ml · 2023]</span>",
     "PRJ-004 exam-portal.java         <span style=\"opacity:0.6\">[java + mysql · 2021]</span>",

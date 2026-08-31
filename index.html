@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ujjwal Bhardwaj — Data &amp; Software Engineer</title>
-  <meta name="description" content="Ujjwal Bhardwaj — Data &amp; Software Engineer. MDS from University of Adelaide, 2.5 yrs at LTIMindtree. Building pipelines, models, and systems that ship." />
+  <title>Ujjwal Bhardwaj — Data Analyst &amp; Software Engineer</title>
+  <meta name="description" content="Ujjwal Bhardwaj — Data Analyst &amp; Software Engineer. MDS from University of Adelaide, 2.5+ yrs enterprise experience spanning incident response, ServiceNow, and Power BI reporting. Building pipelines, dashboards, and systems that ship." />
 
   <!-- favicon (uses the avatar as a small profile icon) -->
   <link rel="icon" type="image/png" href="assets/avatar.png" />
@@ -22,6 +22,11 @@
   <link rel="stylesheet" href="css/sections.css" />
 </head>
 <body>
+
+  <!-- shown until JS finishes loading + rendering components, then removed -->
+  <div id="preloader" aria-hidden="true">
+    <span class="preloader-text">booting<span class="preloader-dots">...</span></span>
+  </div>
 
   <!-- ============================================
        Each <div data-component="X"> placeholder
@@ -47,6 +52,14 @@
 
   <!-- floating sticker + popup (outside ide grid so it overlays) -->
   <div data-component="sticker"></div>
+
+  <!-- one-time nudge pointing at the terminal, shown after the preloader clears -->
+  <div class="terminal-toast" id="terminalToast" hidden>
+    <button class="terminal-toast-close" id="terminalToastClose" aria-label="Dismiss">×</button>
+    <a href="#terminal" class="terminal-toast-body" id="terminalToastLink">
+      <span class="hl">$_</span> psst — the terminal below actually works. try <span class="hl">help</span> or <span class="hl">impact</span>
+    </a>
+  </div>
 
   <script type="module" src="js/main.js"></script>
 </body>

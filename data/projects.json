@@ -36,18 +36,6 @@
     "link": "https://github.com/ujjwalb18/Dental_Implant_Analysis"
   },
   {
-    "id": "PRJ-002",
-    "meta": "// python · etl · nlp · 2024",
-    "title": "FDA AdverseEvents.py",
-    "description": "End-to-end ETL and NLP pipeline on large-scale FDA adverse event datasets. Built modular ingestion, cleaning, and transformation layers with QA checks at every stage. Ran classification and topic modelling workflows over messy medical narrative text, then produced stakeholder-ready insight summaries. Reusable preprocessing utilities that actually saved time on the next experiment.",
-    "tags": ["Python", "ETL", "NLTK", "NLP", "pandas", "scikit-learn"],
-    "stats": [
-      { "value": "7 mo",    "label": "duration" },
-      { "value": "ETL+NLP", "label": "type" }
-    ],
-    "link": ""
-  },
-  {
     "id": "PRJ-003",
     "meta": "// python · association rules · recommender",
     "title": "Recommender.mine()",

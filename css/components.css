@@ -541,6 +541,51 @@
   font-weight: 700;
 }
 
+/* ---------- TERMINAL TOAST ---------- */
+/* one-time nudge pointing at the terminal section — dismisses itself,
+   never blocks the page, shown once per visitor via localStorage (see toast.js) */
+.terminal-toast {
+  position: fixed;
+  bottom: 32px;
+  left: 32px;
+  max-width: 320px;
+  background: var(--paper);
+  border: 2px solid var(--ink);
+  box-shadow: var(--shadow-sm);
+  padding: 14px 34px 14px 16px;
+  z-index: 85;
+  font-family: var(--mono);
+  font-size: 13px;
+  line-height: 1.5;
+  animation: toast-in 0.3s ease;
+}
+.terminal-toast[hidden] { display: none !important; }
+.terminal-toast-body {
+  color: var(--ink);
+  text-decoration: none;
+  display: block;
+}
+.terminal-toast-body:hover { text-decoration: underline; }
+.terminal-toast-close {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-family: var(--mono);
+  font-size: 16px;
+  line-height: 1;
+  cursor: pointer;
+  color: var(--ink);
+  opacity: 0.6;
+}
+.terminal-toast-close:hover { opacity: 1; }
+
+@keyframes toast-in {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
 /* ---------- MOBILE TWEAKS ---------- */
 @media (max-width: 880px) {
   .hero-grid {
@@ -565,6 +610,7 @@
   }
   .contact-mosaic { grid-template-columns: 1fr; }
   .sticker { display: none; } /* sticker hidden on mobile, contact section is enough */
+  .terminal-toast { left: 16px; right: 16px; bottom: 16px; max-width: none; }
   .contact-popup-card { padding: 28px 24px; }
   .contact-popup-title { font-size: 36px; }
 }
