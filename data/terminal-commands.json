@@ -14,30 +14,44 @@
     "  <span class=\"ok\">sudo</span>       → permission denied",
     "  <span class=\"ok\">coffee</span>     → priorities",
     "  <span class=\"ok\">hack</span>       → hack the planet",
+    "  <span class=\"ok\">impact</span>     → numbers that matter",
     "",
     "<span style=\"opacity:0.6\">// hidden cmd somewhere. find it.</span>"
   ],
 
   "about": [
     "name      : ujjwal bhardwaj",
-    "role      : data &amp; software engineer",
+    "role      : data analyst · ex-software engineer",
     "education : MDS · University of Adelaide (2024)",
-    "prev      : software engineer @ LTIMindtree (2.5 yrs)",
+    "now       : data analyst @ grad careers",
+    "prev      : software engineer @ LTIMindtree (2.5 yrs) — servicenow incident response",
     "location  : adelaide, sa 🇦🇺  (485 visa · full work rights)",
     "certs     : oracle java · google data analytics · google gen ai",
     "awards    : adelaide graduate award · university of adelaide",
-    "seeking   : data / software / ml roles in adelaide or remote AU"
+    "seeking   : data / software / IT support roles in adelaide or remote AU"
   ],
 
   "skills": [
     "lang   : python, java, sql, r, javascript",
     "data   : pandas, numpy, sklearn, nltk, etl pipelines",
     "viz    : <span class=\"hl\">power bi</span>, tableau, matplotlib, seaborn",
-    "tools  : git, linux, jupyter, postman, junit",
+    "support: servicenow, incident triage, root cause analysis, powershell",
+    "tools  : git, linux, jupyter, postman, junit, microsoft 365",
     "certs  : oracle java se8, google data analytics, google gen ai"
   ],
 
-  "stack": ["python · java · sql · r · power bi · tableau · git · too much excel"],
+  "stack": ["python · java · sql · servicenow · power bi · git · too much excel"],
+
+  "impact": [
+    "<span class=\"hl\">// numbers, not vibes</span>",
+    "",
+    "  incident volume  : 100/day → 30-40/day  <span style=\"opacity:0.6\">(-65%)</span>",
+    "  resolution time   : <span style=\"opacity:0.6\">(-50%)</span>, via docs + permanent fixes",
+    "  power bi dashboard: 7 dax measures, 6+ visuals, 998 customers",
+    "  ipl analytics     : 260,920+ deliveries processed",
+    "",
+    "<span style=\"opacity:0.6\">// LTIMindtree + Grad Careers. ask me how.</span>"
+  ],
 
   "projects": [
     "PRJ-001 fda-adverse-events.py    <span style=\"opacity:0.6\">[etl + nlp · 2024]</span>",

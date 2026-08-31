@@ -10,5 +10,7 @@
   { "num": "009", "name": "NLP · NLTK",    "category": "text analysis",     "color": ""       },
   { "num": "010", "name": "ETL",           "category": "pipelines · flow",  "color": "rose"   },
   { "num": "011", "name": "Git",           "category": "version control",   "color": "sky"    },
-  { "num": "012", "name": "Excel",         "category": "analysis · pivot",  "color": ""       }
+  { "num": "012", "name": "Excel",         "category": "analysis · pivot",  "color": ""       },
+  { "num": "013", "name": "ServiceNow",    "category": "itsm · ticketing",  "color": "rose"   },
+  { "num": "014", "name": "PowerShell",    "category": "automation",        "color": ""       }
 ]

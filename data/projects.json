@@ -1,4 +1,16 @@
 [
+  {
+    "id": "PRJ-012",
+    "meta": "// sql · servicenow · powershell · 2021-2022",
+    "title": "IncidentOps.resolve()",
+    "description": "Incident triage and root cause analysis on a banking and financial services project at LTIMindtree, using SQL investigation and log-based troubleshooting, with ServiceNow for centralised ticket tracking. Reduced daily incident volume from roughly 100 to 30-40 (about 65%) through documentation and permanent code fixes instead of repeat patches, and cut average resolution time by around 50% by keeping a shared, actually-maintained incident log. Also automated recurring manual processes with PowerShell to remove whole categories of tickets before they happened.",
+    "tags": ["SQL", "ServiceNow", "PowerShell", "Root Cause Analysis", "ITSM"],
+    "stats": [
+      { "value": "-65%", "label": "incident volume" },
+      { "value": "-50%", "label": "resolution time" }
+    ],
+    "link": ""
+  },
     {
     "id": "PRJ-011",
     "meta": "// python · pandas · matplotlib · seaborn · 2025",

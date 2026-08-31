@@ -15,11 +15,13 @@
       <div class="cl"><span><span class="kw">import</span> { <span class="cls">DataScience</span>, <span class="cls">SoftwareEng</span> } <span class="kw">from</span> <span class="str">'./degrees'</span>;</span></div>
       <div class="cl"><span>&nbsp;</span></div>
       <div class="cl"><span><span class="kw">export class</span> <span class="cls">Ujjwal</span> <span class="kw">extends</span> <span class="cls">Human</span> {</span></div>
-      <div class="cl"><span>&nbsp;&nbsp;<span class="kw">readonly</span> role     = <span class="str">'data &amp; software engineer'</span>;</span></div>
+      <div class="cl"><span>&nbsp;&nbsp;<span class="kw">readonly</span> role     = <span class="str">'data analyst · ex-software engineer'</span>;</span></div>
       <div class="cl"><span>&nbsp;&nbsp;<span class="kw">readonly</span> edu      = <span class="str">'MDS · University of Adelaide (2024)'</span>;</span></div>
-      <div class="cl"><span>&nbsp;&nbsp;<span class="kw">readonly</span> prev     = <span class="str">'Software Engineer @ LTIMindtree'</span>;</span></div>
-      <div class="cl"><span>&nbsp;&nbsp;<span class="kw">readonly</span> stack    = [<span class="str">'python'</span>, <span class="str">'java'</span>, <span class="str">'sql'</span>, <span class="str">'power-bi'</span>];</span></div>
+      <div class="cl"><span>&nbsp;&nbsp;<span class="kw">readonly</span> now      = <span class="str">'Data Analyst @ Grad Careers'</span>;</span></div>
+      <div class="cl"><span>&nbsp;&nbsp;<span class="kw">readonly</span> prev     = <span class="str">'Software Engineer @ LTIMindtree — ServiceNow incident response'</span>;</span></div>
+      <div class="cl"><span>&nbsp;&nbsp;<span class="kw">readonly</span> stack    = [<span class="str">'python'</span>, <span class="str">'java'</span>, <span class="str">'sql'</span>, <span class="str">'power-bi'</span>, <span class="str">'servicenow'</span>];</span></div>
       <div class="cl"><span>&nbsp;&nbsp;<span class="kw">readonly</span> location = <span class="str">'Adelaide, SA 🇦🇺'</span>;</span></div>
+      <div class="cl"><span>&nbsp;&nbsp;<span class="kw">readonly</span> impact   = <span class="str">'-65% incidents, -50% resolution time'</span>; <span class="cmt">// via docs + permanent fixes, LTIMindtree</span></span></div>
       <div class="cl"><span>&nbsp;&nbsp;coffee = <span class="num-lit">true</span>; <span class="cmt">// always</span></span></div>
       <div class="cl"><span>&nbsp;</span></div>
       <div class="cl"><span>&nbsp;&nbsp;<span class="fn">build</span>(data: <span class="cls">Dataset</span>): <span class="cls">Insight</span> {</span></div>
@@ -28,6 +30,13 @@
       <div class="cl"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.<span class="fn">model</span>()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cmt">// sklearn + nltk</span></span></div>
       <div class="cl"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.<span class="fn">validate</span>(<span class="num-lit">3</span>)&nbsp;<span class="cmt">// always 3 times somehow</span></span></div>
       <div class="cl"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.<span class="fn">ship</span>();</span></div>
+      <div class="cl"><span>&nbsp;&nbsp;}</span></div>
+      <div class="cl"><span>&nbsp;</span></div>
+      <div class="cl"><span>&nbsp;&nbsp;<span class="fn">triage</span>(incident: <span class="cls">Ticket</span>): <span class="cls">Resolution</span> {</span></div>
+      <div class="cl"><span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="kw">return</span> incident</span></div>
+      <div class="cl"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.<span class="fn">investigate</span>()&nbsp;<span class="cmt">// sql + logs</span></span></div>
+      <div class="cl"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.<span class="fn">fix</span>()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cmt">// permanently, not a patch</span></span></div>
+      <div class="cl"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.<span class="fn">document</span>();&nbsp;&nbsp;<span class="cmt">// so it never repeats</span></span></div>
       <div class="cl"><span>&nbsp;&nbsp;}</span></div>
       <div class="cl"><span>&nbsp;</span></div>
       <div class="cl"><span>&nbsp;&nbsp;<span class="fn">manifesto</span>() {</span></div>
