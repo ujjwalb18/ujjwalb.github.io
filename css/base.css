@@ -13,7 +13,9 @@ html, body {
   background: var(--bg);
   color: var(--ink);
   font-family: var(--mono);
-  overflow-x: hidden;
+  /* clip (not hidden) — hidden creates a scroll container on this axis,
+     which silently breaks position:sticky for descendants (the sidebar) */
+  overflow-x: clip;
 }
 
 body {

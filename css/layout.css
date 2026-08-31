@@ -46,7 +46,8 @@
   padding: 16px 0;
   position: sticky;
   top: 32px;
-  height: calc(100vh - 32px);
+  align-self: stretch;              /* fill the full grid row so the bg/border reach the page bottom */
+  max-height: calc(100vh - 32px);   /* cap the visible/scrollable area to one screen */
   overflow-y: auto;
   font-size: 12px;
 }
